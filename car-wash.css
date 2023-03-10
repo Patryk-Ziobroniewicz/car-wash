@@ -1,0 +1,198 @@
+:root {
+    box-sizing: border-box;
+    color: white;
+}
+* , ::before, ::after {
+    box-sizing: inherit;
+}
+body {
+    background-image: url(https://media.istockphoto.com/id/609073228/nl/foto/water-drops.jpg?b=1&s=170667a&w=0&k=20&c=tll0pUfWh2DNI2anIJ-Sm4B_VHoxUgPJBzj4f8H2q20=);
+}
+
+#header {
+    background: rgb(11, 13, 14);
+    padding: 5px;
+    font-family: 'Cookie', cursive;
+    opacity: 90%;
+}
+
+#logo {
+    float: left;
+    width: 20%;
+}
+
+#logo img {
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu  {
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 2rem;
+}
+
+.menu ul li a:hover {
+    color: #FFD77F;
+}
+
+.contact-info {
+    float: left;
+    width: 20%;
+}
+
+.contact-info .tel {
+    font-size: 1.2rem;
+    margin: 25px auto auto;
+    
+}
+
+.contact-info .tel a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.slider-box {
+    height: 200px;
+    background-color: black;
+    opacity: 99%;
+}
+
+.slider-half-item {
+    width: 50%;
+    float: left;
+    height: 100%;
+    font-family: cursive, Geneva;
+}
+
+.slider-half-item article {
+    margin: 2rem;
+}
+
+.slider-half-item article .button-section {
+    margin-top: 1rem;
+
+}
+
+.slider-half-item .button {
+    text-transform: uppercase;
+    padding: 8px;
+    text-decoration: none;
+    margin: 2px;
+    font-size: 0.7rem;
+}
+
+.book-button {
+    color: #1db944;
+    border: 2px solid white;
+    background-color: #936c02;
+}
+.order-button {
+    color: #FFD77F;
+    border: 2px solid white;
+}
+.order-button:hover, .book-button:hover {
+    background-color: #333333;
+}
+
+.wash-img {
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/07/16/30/auto-3298890__340.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.advantages-box {
+    background: transparent;
+}
+
+.advantages-one-third {
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+    margin: 30px 0px 30px;
+}
+
+.column-advantage {
+    position: relative;
+    height: 260px;
+    border: 5px solid black;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.best-wash {
+    background-image: url(https://media.istockphoto.com/id/1287044692/photo/worker-washing-red-car-with-sponge-on-a-car-wash.jpg?b=1&s=170667a&w=0&k=20&c=Kk7CPMjYNeIaTRoHM5a8s1iDAkmNgtz0uTF_sbRAIps=);
+
+}
+
+.touchless-wash {
+    background-image: url(https://media.istockphoto.com/id/1332908487/photo/car-washing-cleaning-car-using-high-pressure-water-autowashing-outdoors.jpg?b=1&s=170667a&w=0&k=20&c=131c1gqZv5mKYgF4jyXSakJXhOx_IBVsYLtJ_9_yQl8=);
+
+}
+
+.auto-wash {
+    background-image: url(https://media.istockphoto.com/id/953990876/photo/modern-brush-car-wash.jpg?b=1&s=170667a&w=0&k=20&c=rg42thFosLUer-UIpRPneAlpmWui6GM4Ql24iAoFGy0=);
+
+}
+
+.services {
+    color: rgb(255, 248, 248);
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    bottom: 80px;
+    left: 5px;
+    right: 5px;
+    position: absolute;
+    background-color: black;
+    opacity: 75%;
+    word-wrap: break-word;
+}
+
+.detailing-menu {
+    background-color: black;
+}
+
+.menu-one-forth {
+    width: 25%;
+    float: left ;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    word-wrap: break-word;
+}
+
+.menu-one-forth img {
+    width: 100%;
+}
+
+.page-footer {
+    width: 100%;
+    background-color: black;
+    font-family: 'Cookie';
+}
